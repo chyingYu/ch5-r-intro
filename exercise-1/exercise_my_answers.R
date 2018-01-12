@@ -5,4 +5,4 @@ puppies <- 2
 puppy.price <- 100
 total.cost <- puppies*puppy.price
 too.expensive <- total.cost >= 1000
-max.puppies <- 1000/puppy.price
+max.puppies <- 1000/puppy.price #%/% -> divide and ignore remainder
